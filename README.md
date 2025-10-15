@@ -37,6 +37,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Feel free to open issues or pull requests for improvements or questions.
 
----
+
 
 © 2025 freakyjonas
