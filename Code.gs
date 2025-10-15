@@ -25,7 +25,7 @@ function autoSortGmailBySenderDomainBatch() {
     const domain = email.split('@')[1]?.toLowerCase();
     if (!domain) return;
     
-    // Extract domain extension (e.g., ".com", ".de", ".org")
+    //  Extract domain extension (e.g., ".com", ".de", ".org")
     const domainEndingMatch = domain.match(/\.[a-z]{2,}$/);
     if (domainEndingMatch) {
       foundDomainEndings.add(domainEndingMatch[0]);
